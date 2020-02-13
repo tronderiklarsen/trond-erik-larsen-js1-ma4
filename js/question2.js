@@ -7,6 +7,8 @@ function handleResponse(response) {
 function createGames(json) {
     const results = json.results;
 
+    console.log(results);
+
     const container = document.querySelector(".results");
     let html = "";
 
